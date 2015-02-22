@@ -2,9 +2,32 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>Cat Clicker</title>
+    <!-- Stylesheets !-->
+    <link href="../css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Script !-->
+    <!--<script src="../js/vendor/bootstrap.min.js" type="text/javascript"></script>-->
+    <script src="../js/app/cat-clicker.js" type="text/javascript"></script>
 </head>
-<body>
-
+<body onload="catClicker()">
+<div class="container-fluid">
+    <div class="row">
+        <h2>Cat Clicker</h2>
+    </div>
+    <div class="row">
+        <h3>
+            <small>Click on the cat to see the number of clicks</small>
+        </h3>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+            <img src="https://lh3.ggpht.com/nlI91wYNCrjjNy5f-S3CmVehIBM4cprx-JFWOztLk7vFlhYuFR6YnxcT446AvxYg4Ab7M1Fy0twaOCWYcUk=s0#w=640&h=426"
+                 id="cat-img"/>
+        </div>
+        <div class="col-md-4">
+            <p id="cat-click-counter"></p>
+        </div>
+    </div>
+</div>
 </body>
 </html>
